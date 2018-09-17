@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration monitorInterval="3">
+  <appenders>
+    <File name="FILE" fileName="logs/log4j2.log">
+      <PatternLayout pattern="%d{ISO8601} [%-5p] (%F:%L) - %m%n"/>
+    </File>
+  </appenders>
+  <loggers>
+    <root level="debug" additivity="false">
+      <appender-ref ref="STDOUT"/>
+      <appender-ref ref="FILE"/>
+    </root>
+  </loggers>
+
+</configuration>

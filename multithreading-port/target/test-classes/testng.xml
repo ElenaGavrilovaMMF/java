@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test1">
+<test name="creatorTest">
+    <classes>
+        <class name="creator.CreatorShipTest"/>
+    </classes>
+</test>
+    <test name="enamTest">
+        <classes>
+            <class name="enam.PurposeTest"/>
+            <class name="enam.StateTest"/>
+        </classes>
+    </test>
+    <test name="entityTest">
+        <classes>
+            <class name="entity.BerthTest"/>
+            <class name="entity.StoreTest"/>
+            <class name="entity.ShipTest"/>
+        </classes>
+    </test>
+    <test name="parserTest">
+        <classes>
+            <class name="parser.FileParserTest"/>
+        </classes>
+    </test>
+</suite>
+

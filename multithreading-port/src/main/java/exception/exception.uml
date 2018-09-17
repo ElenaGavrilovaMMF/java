@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>exception</OriginalElement>
+  <nodes>
+    <node x="316.0" y="0.0">exception.ShipRunException</node>
+    <node x="327.2378378378379" y="174.04864864864868">exception.StoreException</node>
+    <node x="0.0" y="0.0">exception.ShipException</node>
+    <node x="0.0" y="253.0">exception.FileException</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.8486238532110092" x="305.97837837837835" y="208.14054054054054" />
+  <SelectedNodes>
+    <node>exception.StoreException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

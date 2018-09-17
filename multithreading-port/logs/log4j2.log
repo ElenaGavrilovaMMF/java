@@ -1,0 +1,549 @@
+2018-07-26T23:51:07,637 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-26T23:51:07,654 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-26T23:51:07,662 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-26T23:51:07,666 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,667 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:51:07,666 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-26T23:51:07,669 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-26T23:51:07,669 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:51:07,669 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:51:07,670 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,670 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 25.0. Remained unload: 45.0
+2018-07-26T23:51:07,670 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:51:07,670 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:51:07,671 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:51:07,671 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=45.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=45.0}has arrived.
+2018-07-26T23:51:07,671 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:51:07,671 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:51:07,672 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,672 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 25.0. Remained unload: 20.0
+2018-07-26T23:51:07,672 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:51:07,672 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:51:07,672 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:51:07,673 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=20.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=20.0}has arrived.
+2018-07-26T23:51:07,673 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:51:07,673 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:51:07,673 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,674 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 20.0. Remained unload: 0.
+2018-07-26T23:51:07,674 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:51:07,674 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,674 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:51:07,675 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:51:07,675 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:51:07,675 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,675 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:51:07,675 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 5.0. Remained unload: 5.0
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-26T23:51:07,676 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,677 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=45.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}
+2018-07-26T23:51:07,677 [INFO ] (ShipLogger.java:49) - Ship 3 is trying to work again.
+2018-07-26T23:51:07,677 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,677 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=45.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-26T23:51:07,677 [INFO ] (ShipLogger.java:40) - Ship{name='4, state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 5.0. Remained unload: 0.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:51:07,678 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4, state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 0.0. Remained load: 0.
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:40) - Ship{name='6, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-26T23:51:07,679 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-26T23:51:07,680 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:51:07,680 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,680 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-26T23:51:07,680 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 25.0. Remained unload: 5.0
+2018-07-26T23:51:07,680 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-26T23:51:07,681 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:51:07,681 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-26T23:51:07,681 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,682 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=16.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}
+2018-07-26T23:51:07,682 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-26T23:51:07,682 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-26T23:51:07,682 [INFO ] (ShipLogger.java:49) - Ship 7 is trying to work again.
+2018-07-26T23:51:07,683 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 20.0. Remained unload: 0.
+2018-07-26T23:51:07,683 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=16.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-26T23:51:07,683 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:51:07,683 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=-20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 5.0. Remained unload: 0.
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:51:07,684 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:51:07,685 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 0.0. Remained load: 0.
+2018-07-26T23:51:07,685 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,372 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-26T23:52:16,390 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-26T23:52:16,398 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-26T23:52:16,402 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-26T23:52:16,403 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:52:16,404 [ERROR] (StoreLogger.java:30) - Not enough volume in store: 100.0
+2018-07-26T23:52:16,405 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 60.0. Remained unload: 10.0
+2018-07-26T23:52:16,405 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,407 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:52:16,406 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:52:16,407 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-26T23:52:16,408 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:52:16,407 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,408 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,409 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:52:16,409 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:52:16,409 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:52:16,409 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:52:16,409 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:52:16,410 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:52:16,410 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,410 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:52:16,411 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:52:16,411 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,411 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:52:16,411 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,411 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:52:16,412 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:52:16,412 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:52:16,412 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:52:16,412 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:52:16,413 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:52:16,413 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,413 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:52:16,413 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:52:16,414 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,415 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,415 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:52:16,416 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:52:16,416 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,416 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-26T23:52:16,417 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}
+2018-07-26T23:52:16,417 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,417 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}
+2018-07-26T23:52:16,417 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:52:16,418 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:52:16,418 [INFO ] (ShipLogger.java:40) - Ship{name='4, state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:52:16,418 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:52:16,418 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-26T23:52:16,419 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-26T23:52:16,419 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}
+2018-07-26T23:52:16,419 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:49) - Ship 3 is trying to work again.
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4, state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:40) - Ship{name='6, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-26T23:52:16,420 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:52:16,421 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 10.0. Remained unload: 0.
+2018-07-26T23:52:16,421 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-26T23:52:16,421 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,422 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-26T23:52:16,421 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,423 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-26T23:52:16,423 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,423 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-26T23:52:16,424 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:52:16,424 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 25.0. Remained unload: 5.0
+2018-07-26T23:52:16,425 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:52:16,425 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-26T23:52:16,426 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=16.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}
+2018-07-26T23:52:16,426 [INFO ] (ShipLogger.java:49) - Ship 7 is trying to work again.
+2018-07-26T23:52:16,426 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=16.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-26T23:52:16,427 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:52:16,427 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 5.0. Remained unload: 0.
+2018-07-26T23:52:16,427 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:52:16,427 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,428 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 0.0. Remained load: 0.
+2018-07-26T23:52:16,428 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:52:16,428 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,428 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 0.0. Remained load: 0.
+2018-07-26T23:52:16,429 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,429 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-26T23:52:16,429 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-26T23:52:16,430 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 20.0. Remained unload: 0.
+2018-07-26T23:52:16,430 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=-20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-26T23:52:16,430 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-26T23:52:16,431 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-26T23:52:16,431 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,744 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-26T23:55:23,766 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-26T23:55:23,777 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-26T23:55:23,780 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,780 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-26T23:55:23,781 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:55:23,781 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-26T23:55:23,782 [ERROR] (StoreLogger.java:30) - Not enough volume in store: 100.0
+2018-07-26T23:55:23,783 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 70.0. Remained unload: 0.
+2018-07-26T23:55:23,784 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,784 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-26T23:55:23,785 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:55:23,785 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:55:23,785 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,785 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:55:23,786 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:55:23,787 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 0.0. Remained unload: 10.0
+2018-07-26T23:55:23,787 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:55:23,787 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:55:23,788 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:55:23,788 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:49) - Ship 3 is trying to work again.
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:55:23,789 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-26T23:55:23,790 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:55:23,790 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-26T23:55:23,790 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,790 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 10.0. Remained unload: 0.
+2018-07-26T23:55:23,790 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:55:23,791 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,791 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-26T23:55:23,791 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:55:23,791 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 0.0. Remained load: 0.
+2018-07-26T23:55:23,791 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:55:23,792 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,792 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,792 [INFO ] (ShipLogger.java:40) - Ship{name='4, state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-26T23:55:23,792 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,793 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4, state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,794 [INFO ] (ShipLogger.java:40) - Ship{name='6, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-26T23:55:23,794 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,794 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-26T23:55:23,795 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-26T23:55:23,795 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-26T23:55:23,795 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:55:23,795 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,795 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 15.0. Remained unload: 15.0
+2018-07-26T23:55:23,796 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-26T23:55:23,796 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:55:23,796 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-26T23:55:23,796 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-26T23:55:23,796 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,797 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=26.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=15.0}
+2018-07-26T23:55:23,797 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-26T23:55:23,797 [INFO ] (ShipLogger.java:49) - Ship 7 is trying to work again.
+2018-07-26T23:55:23,798 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-26T23:55:23,798 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=26.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=15.0}has arrived.
+2018-07-26T23:55:23,799 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 20.0. Remained unload: 0.
+2018-07-26T23:55:23,799 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:55:23,800 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 6.0. Remained unload: 9.0
+2018-07-26T23:55:23,800 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=-20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,800 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-26T23:55:23,801 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-26T23:55:23,801 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,804 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:55:23,805 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 0.0. Remained load: 0.
+2018-07-26T23:55:23,805 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=9.0}
+2018-07-26T23:55:23,806 [INFO ] (ShipLogger.java:49) - Ship 7 is trying to work again.
+2018-07-26T23:55:23,806 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=9.0}has arrived.
+2018-07-26T23:55:23,807 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-26T23:55:23,807 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 9.0. Remained unload: 0.
+2018-07-26T23:55:23,808 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-26T23:55:23,808 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-26T23:55:23,808 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 0.0. Remained load: 0.
+2018-07-26T23:55:23,809 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,857 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-27T10:19:23,888 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-27T10:19:23,888 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-27T10:19:23,888 [ERROR] (StoreLogger.java:30) - Not enough volume in store: 100.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 65.0. Remained unload: 5.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 5.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 5.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T10:19:23,888 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 5.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 0.0. Remained unload: 5.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 1 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}
+2018-07-27T10:19:23,904 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='1, state=PARTIALLY_DONE, volumeMax=70.0, volumeCurrent=5.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=5.0}
+2018-07-27T10:19:23,904 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='4, state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 0.0. Remained unload: 10.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4, state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='6, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 3 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 10.0. Remained unload: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 0.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 15.0. Remained unload: 15.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=26.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=15.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 7 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=26.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=15.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 15.0. Remained unload: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 0.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 11.0. Remained unload: 9.0
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=19.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=9.0}
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 8 is trying to work again.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=19.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=9.0}has arrived.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-27T10:19:23,904 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 9.0. Remained unload: 0.
+2018-07-27T10:19:23,919 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T10:19:23,920 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-27T10:19:23,921 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 0.0. Remained load: 0.
+2018-07-27T10:19:23,921 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:33:59,977 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-27T11:34:00,124 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-27T11:34:00,264 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:34:00,267 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-27T11:34:00,269 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:34:00,269 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,270 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 70.0. Remained unload: 0.
+2018-07-27T11:34:00,270 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T11:34:00,271 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,271 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-27T11:34:00,271 [INFO ] (ShipLogger.java:40) - Ship{name='3, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:34:00,271 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T11:34:00,272 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-27T11:34:00,274 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,274 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:34:00,275 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T11:34:00,275 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,276 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T11:34:00,276 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-27T11:34:00,276 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T11:34:00,277 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,277 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-27T11:34:00,277 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T11:34:00,278 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T11:34:00,278 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T11:34:00,278 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3, state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,278 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,279 [INFO ] (ShipLogger.java:40) - Ship{name='4, state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,280 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-27T11:34:00,281 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-27T11:34:00,279 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T11:34:00,281 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4, state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,281 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T11:34:00,282 [INFO ] (ShipLogger.java:40) - Ship{name='6, state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-27T11:34:00,283 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-27T11:34:00,282 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T11:34:00,283 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-27T11:34:00,283 [INFO ] (ShipLogger.java:40) - Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:34:00,284 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,284 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-27T11:34:00,284 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-27T11:34:00,284 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-27T11:34:00,285 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-27T11:34:00,285 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-27T11:34:00,285 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6, state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,285 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,286 [INFO ] (ShipLogger.java:40) - Ship{name='7, state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-27T11:34:00,286 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2, state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,287 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-27T11:34:00,287 [INFO ] (ShipLogger.java:40) - Ship{name='8, state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-27T11:34:00,287 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 30.0. Remained unload: 0.
+2018-07-27T11:34:00,287 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,287 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-27T11:34:00,288 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-27T11:34:00,289 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-27T11:34:00,290 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7, state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,289 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 20.0. Remained unload: 0.
+2018-07-27T11:34:00,291 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=-20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-27T11:34:00,292 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-27T11:34:00,293 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-27T11:34:00,293 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8, state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:37:15,279 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:37:15,284 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:37:15,403 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:37:15,403 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:37:15,404 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:37:15,405 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:37:15,409 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:37:15,426 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:37:15,426 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:37:15,427 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:37:15,427 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:39:53,744 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:39:53,748 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:39:53,807 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:39:53,811 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:39:53,812 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:39:53,813 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:39:53,819 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:39:53,822 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:39:53,823 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:39:53,823 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:39:53,824 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:41:15,823 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:41:15,823 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:41:15,893 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:41:15,893 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:41:15,893 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:41:15,893 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:41:15,893 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:41:15,893 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:41:15,908 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:41:15,908 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:41:15,908 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:42:14,498 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:42:14,502 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:42:14,637 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:42:14,639 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:42:14,640 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:42:14,642 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:42:14,747 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:42:14,777 [INFO ] (ShipLogger.java:40) - Ship{name='1, state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:42:14,779 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:42:14,781 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:42:14,782 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1, state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:43:10,234 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:43:10,249 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:43:10,265 [INFO ] (ShipLogger.java:40) - Ship{name='1', state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:43:10,265 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:43:10,265 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:43:10,265 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:43:10,265 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1', state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:43:10,296 [INFO ] (ShipLogger.java:40) - Ship{name='1', state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:43:10,296 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:43:10,296 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:43:10,296 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1', state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:43:47,680 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-27T11:43:47,684 [ERROR] (StoreLogger.java:30) - Not enough products in store: 0.0
+2018-07-27T11:43:47,700 [INFO ] (ShipLogger.java:40) - Ship{name='1', state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=LOAD, volumeLoading=30.0, volumeUnloading=0.0}has arrived.
+2018-07-27T11:43:47,700 [INFO ] (ShipLogger.java:49) - Ship 1 being loaded at the Store.
+2018-07-27T11:43:47,701 [ERROR] (StoreLogger.java:30) - Not enough products in store: 10.0
+2018-07-27T11:43:47,703 [INFO ] (ShipLogger.java:49) - The ship 1 loaded: 30.0. Remained load: 0.
+2018-07-27T11:43:47,705 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1', state=DONE, volumeMax=70.0, volumeCurrent=40.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-27T11:43:47,732 [INFO ] (ShipLogger.java:40) - Ship{name='1', state=NOT_DONE, volumeMax=70.0, volumeCurrent=10.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=10.0}has arrived.
+2018-07-27T11:43:47,732 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-27T11:43:47,733 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 10.0. Remained unload: 0.
+2018-07-27T11:43:47,733 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1', state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,016 [INFO ] (FileLogger.java:37) - The file has been successfully read.
+2018-07-29T18:08:19,325 [ERROR] (ShipLogger.java:31) - Such a ship does not exist. The current volume is less than the unload.
+2018-07-29T18:08:19,468 [INFO ] (StoreLogger.java:39) - Products in Store: null
+2018-07-29T18:08:19,471 [INFO ] (ShipLogger.java:40) - Ship{name='1', state=NOT_DONE, volumeMax=70.0, volumeCurrent=70.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=70.0}has arrived.
+2018-07-29T18:08:19,474 [INFO ] (ShipLogger.java:49) - Ship 1 being unloaded at the Store.
+2018-07-29T18:08:19,475 [INFO ] (ShipLogger.java:49) - The ship 1 unloaded: 70.0. Remained unload: 0.
+2018-07-29T18:08:19,475 [INFO ] (ShipLogger.java:40) - Ship{name='2', state=NOT_DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD, volumeLoading=50.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,476 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-29T18:08:19,477 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 35.0. Remained load: 15.0
+2018-07-29T18:08:19,477 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-29T18:08:19,477 [INFO ] (ShipLogger.java:40) - Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,476 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='1', state=DONE, volumeMax=70.0, volumeCurrent=0.0, purpose=UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,478 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-29T18:08:19,478 [INFO ] (ShipLogger.java:40) - Ship{name='3', state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=10.0}has arrived.
+2018-07-29T18:08:19,478 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-29T18:08:19,479 [INFO ] (ShipLogger.java:49) - Ship 3 being unloaded at the Store.
+2018-07-29T18:08:19,479 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-29T18:08:19,479 [INFO ] (ShipLogger.java:49) - The ship 3 unloaded: 10.0. Remained unload: 0.
+2018-07-29T18:08:19,479 [INFO ] (ShipLogger.java:40) - Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,479 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3', state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,480 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-29T18:08:19,480 [INFO ] (ShipLogger.java:49) - Ship 3 being loaded at the Store.
+2018-07-29T18:08:19,480 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-29T18:08:19,480 [INFO ] (ShipLogger.java:49) - The ship 3 loaded: 30.0. Remained load: 0.
+2018-07-29T18:08:19,481 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-29T18:08:19,481 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='3', state=DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,481 [INFO ] (ShipLogger.java:40) - Ship{name='4', state=NOT_DONE, volumeMax=50.0, volumeCurrent=3.0, purpose=LOAD, volumeLoading=10.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,481 [INFO ] (ShipLogger.java:40) - Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,482 [INFO ] (ShipLogger.java:49) - Ship 4 being loaded at the Store.
+2018-07-29T18:08:19,482 [INFO ] (ShipLogger.java:49) - The ship 4 loaded: 10.0. Remained load: 0.
+2018-07-29T18:08:19,482 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-29T18:08:19,483 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='4', state=DONE, volumeMax=50.0, volumeCurrent=13.0, purpose=LOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,483 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-29T18:08:19,483 [INFO ] (ShipLogger.java:40) - Ship{name='6', state=NOT_DONE, volumeMax=50.0, volumeCurrent=20.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=15.0}has arrived.
+2018-07-29T18:08:19,484 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-29T18:08:19,484 [INFO ] (ShipLogger.java:49) - Ship 6 being unloaded at the Store.
+2018-07-29T18:08:19,484 [INFO ] (ShipLogger.java:40) - Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}has arrived.
+2018-07-29T18:08:19,484 [INFO ] (ShipLogger.java:49) - The ship 6 unloaded: 15.0. Remained unload: 0.
+2018-07-29T18:08:19,485 [INFO ] (ShipLogger.java:49) - Ship 2 being loaded at the Store.
+2018-07-29T18:08:19,485 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6', state=DONE, volumeMax=50.0, volumeCurrent=5.0, purpose=LOAD_UNLOAD, volumeLoading=10.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,485 [INFO ] (ShipLogger.java:49) - The ship 2 loaded: 0.0. Remained load: 15.0
+2018-07-29T18:08:19,486 [INFO ] (ShipLogger.java:49) - Ship 6 being loaded at the Store.
+2018-07-29T18:08:19,486 [INFO ] (ShipLogger.java:49) - Ship 2 is trying to work again.
+2018-07-29T18:08:19,486 [INFO ] (ShipLogger.java:49) - The ship 6 loaded: 10.0. Remained load: 0.
+2018-07-29T18:08:19,486 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,487 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='6', state=DONE, volumeMax=50.0, volumeCurrent=15.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,487 [INFO ] (ShipLogger.java:40) - Ship{name='7', state=NOT_DONE, volumeMax=50.0, volumeCurrent=40.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=30.0}has arrived.
+2018-07-29T18:08:19,487 [ERROR] (ShipLogger.java:31) - Could not fully perform the work.: Ship{name='2', state=PARTIALLY_DONE, volumeMax=50.0, volumeCurrent=50.0, purpose=LOAD, volumeLoading=15.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,487 [INFO ] (ShipLogger.java:49) - Ship 7 being unloaded at the Store.
+2018-07-29T18:08:19,488 [INFO ] (ShipLogger.java:49) - The ship 7 unloaded: 30.0. Remained unload: 0.
+2018-07-29T18:08:19,488 [INFO ] (ShipLogger.java:40) - Ship{name='8', state=NOT_DONE, volumeMax=50.0, volumeCurrent=0.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=20.0}has arrived.
+2018-07-29T18:08:19,488 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7', state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=1.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,489 [INFO ] (ShipLogger.java:49) - Ship 7 being loaded at the Store.
+2018-07-29T18:08:19,489 [INFO ] (ShipLogger.java:49) - Ship 8 being unloaded at the Store.
+2018-07-29T18:08:19,489 [INFO ] (ShipLogger.java:49) - The ship 8 unloaded: 20.0. Remained unload: 0.
+2018-07-29T18:08:19,489 [INFO ] (ShipLogger.java:49) - The ship 7 loaded: 1.0. Remained load: 0.
+2018-07-29T18:08:19,490 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8', state=DONE, volumeMax=50.0, volumeCurrent=-20.0, purpose=LOAD_UNLOAD, volumeLoading=30.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,490 [INFO ] (ShipLogger.java:49) - Ship 8 being loaded at the Store.
+2018-07-29T18:08:19,490 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='7', state=DONE, volumeMax=50.0, volumeCurrent=11.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
+2018-07-29T18:08:19,491 [INFO ] (ShipLogger.java:49) - The ship 8 loaded: 30.0. Remained load: 0.
+2018-07-29T18:08:19,491 [INFO ] (ShipLogger.java:49) - Information after work: Ship{name='8', state=DONE, volumeMax=50.0, volumeCurrent=10.0, purpose=LOAD_UNLOAD, volumeLoading=0.0, volumeUnloading=0.0}
