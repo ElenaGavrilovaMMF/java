@@ -10,22 +10,12 @@
             margin-top: 100px;
             margin-left: 200px;
         }
-        .err{
-            color: red;
-        }
 
     </style>
 </head>
 <body>
 <%@include file="header.jsp"%>
 <div class="content">
-    <c:if test="${not empty requestScope.errors}">
-        <div class="err">
-            <c:forEach var="error" items="${requestScope.errors}">
-                <label> <span>${error}</span></label>
-            </c:forEach>
-        </div>
-    </c:if>
 <form action="${pageContext.request.contextPath}/createBook?user_id=${sessionScope.currentUser.id}" enctype="multipart/form-data" method="post" >
     <h3>Введите название книги:</h3>
     <input type="text" class="text" name="name" value="${requestScope.name}"/> <br>
@@ -42,14 +32,20 @@
     </select><br>
     <h3>Содержание:</h3>
     <input type="text" class="text" name="description" value="${requestScope.description}"/> <br>
-    <h3>в формате .txt</h3>
+
     <input type="file" name="file" >
     <br>
     <input type="submit" class="submit" value="Загрузить"><br>
 
 </form>
 
-
+<c:if test="${not empty requestScope.errors}">
+    <div class="err">
+        <c:forEach var="error" items="${requestScope.errors}">
+            <label> <span>${error}</span></label>
+        </c:forEach>
+    </div>
+</c:if>
 </div>
 
 </body>

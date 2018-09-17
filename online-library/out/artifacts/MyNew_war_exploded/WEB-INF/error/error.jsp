@@ -4,8 +4,6 @@
     <title>Title</title>
 </head>
 <body>
-
-Упс! :(
-
+    ERROR!!!
 </body>
 </html>

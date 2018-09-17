@@ -21,13 +21,6 @@
 <body>
 <%@include file="header.jsp"%>
 <div class="content">
-    <c:if test="${not empty requestScope.errors}">
-        <div class="err">
-            <c:forEach var="error" items="${requestScope.errors}">
-                <label> <span>${error}</span></label>
-            </c:forEach>
-        </div>
-    </c:if>
 <form action="${pageContext.request.contextPath}/createChapter?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book_id}" method="post" >
     <h3>Введите название главы:</h3>
     <input type="text" name="name" value="${requestScope.name}"/>

@@ -29,13 +29,8 @@
 <%@include file="style-pr.jsp"%>
 <div class="content">
 
-<c:if test="${requestScope.ban !=null }">
-    <h1>Книга в черном списке c ${requestScope.ban.date}!</h1>
-</c:if>
-
-
-<c:if test="${requestScope.ban !=null and (sessionScope.currentUser.role == 'Администратор' or sessionScope.currentUser.role == 'Редактор')}">
-
+    <c:if test="${requestScope.ban !=null and (sessionScope.currentUser.role == 'Администратор' or sessionScope.currentUser.role == 'Редактор')}">
+        <h1>Книга в черном списке c ${requestScope.ban.date}!</h1>
         <c:if test="${sessionScope.currentUser.role == 'Администратор' or sessionScope.currentUser.role == 'Редактор'}">
 
         <form action="${pageContext.request.contextPath}/banUn?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book.id}"
@@ -80,8 +75,11 @@
                 <h4><a href="${pageContext.request.contextPath}/chapterFullInfo?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book_id}&chapter_id=${chapter.id}">${chapter.name}</a></h4>
             </c:forEach>
             <c:if test="${sessionScope.currentUser.id == requestScope.book_user_id}">
-                <h4><a href="${pageContext.request.contextPath}/createChapter?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book_id}">Добавить
-                главу</a></h4>
+                <form action="${pageContext.request.contextPath}/createChapter?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book_id}">
+                    <input type="submit" value="Добавить главу">
+                </form>
+                <%--<a href="${pageContext.request.contextPath}/createChapter?user_id=${sessionScope.currentUser.id}&book_id=${requestScope.book_id}">Добавить--%>
+                <%--главу</a><br>--%>
             </c:if>
         </c:if>
     </c:if>

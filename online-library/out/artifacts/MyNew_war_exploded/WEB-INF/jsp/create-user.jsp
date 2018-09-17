@@ -12,24 +12,18 @@
 <head>
     <title>Create User</title>
     <style>
-        .err{
-            color: red;
+        .content {
+            margin-top: 100px;
+            margin-left: 200px;
         }
     </style>
 </head>
 <body>
 <%@include file="header.jsp"%>
-<h1>Регистрация пользователя</h1>
-<c:if test="${not empty requestScope.errors}">
-    <div class="err">
-        <c:forEach var="error" items="${requestScope.errors}">
-            <span>${error}</span><br>
-        </c:forEach>
-    </div>
-</c:if>
+<div class="content">
 <form action="${pageContext.request.contextPath}/createUser" method="post">
-    <h3>Введите email: </h3>
-    <input type="text" name="login" value="${requestScope.login}"/>
+    <h3>Введите логин: </h3>
+    <input type="email" name="login" value="${requestScope.login}"/>
     <h3>Введите пароль: </h3>
     <input type="password" name="passwordFirst" value="${requestScope.passwordFirst}"/>
     <h3>Повторите пароль: </h3>
@@ -39,6 +33,13 @@
 
     <input type="submit" value="Зарегистрироваться">
 </form>
-
+<c:if test="${not empty requestScope.errors}">
+    <div>
+        <c:forEach var="error" items="${requestScope.errors}">
+            <span>${error}</span><br>
+        </c:forEach>
+    </div>
+</c:if>
+</div>
 </body>
 </html>

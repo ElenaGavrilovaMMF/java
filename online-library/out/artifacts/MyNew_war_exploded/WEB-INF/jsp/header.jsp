@@ -112,12 +112,7 @@
     }
 
 </style>
-<form action="${pageContext.request.contextPath}/language">
-    <select class="btn btn-default dropdown-toggle" name="lang" onchange="submit()">
-        <option value="en_US" ${sessionScope.language eq 'en_US' ? 'selected' : ''}>English</option>
-        <option value="ru_RU" ${sessionScope.language eq 'ru_RU' ? 'selected' : ''}>Русский</option>
-    </select>
-</form>
+
 
 <c:if test="${not empty sessionScope.currentUser}">
 
@@ -130,7 +125,7 @@
             <a href="${pageContext.request.contextPath}/adminServlet?user_id=${sessionScope.currentUser.id}">Дополнительные функии</a>
         </li>
     </c:if>
-    <li><a href="${pageContext.request.contextPath}/logout">Выход</a></li><br>
+    <li><a href="${pageContext.request.contextPath}/logout">Logout</a></li><br>
 </ul>
 </c:if>
 

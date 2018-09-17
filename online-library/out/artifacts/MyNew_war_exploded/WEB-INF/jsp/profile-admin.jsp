@@ -22,7 +22,7 @@
 </form>
 ${requestScope.result}
 <br>
-<h3>Добавить редактора (Поиск по email)</h3>
+<h3>Добавить редактора</h3>
 <form action="${pageContext.request.contextPath}/userScearch?user_id=${sessionScope.currentUser.id}" method="post">
     <input type="text" name="user"><br>
     <input type="submit" name="Найти">
