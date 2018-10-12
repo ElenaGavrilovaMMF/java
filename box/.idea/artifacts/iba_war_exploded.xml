@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="iba:war exploded">
+    <output-path>$PROJECT_DIR$/target/iba-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="iba" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.0" />
+          <element id="library" level="project" name="Maven: com.box:box-java-sdk:2.8.2" />
+          <element id="library" level="project" name="Maven: com.eclipsesource.minimal-json:minimal-json:0.9.1" />
+          <element id="library" level="project" name="Maven: org.bitbucket.b_c:jose4j:0.4.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.52" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/iba-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="iba/web/Web" />
+    </root>
+  </artifact>
+</component>
